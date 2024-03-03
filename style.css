@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: #111827;
+  color: #fff;
+  height: 100dvh;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordion {
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.accordion:not(:last-child) {
+  margin-bottom: 0.7rem;
+}
+
+.accordion-btn {
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  background-color: #08f;
+  color: #000;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transition: background-color 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.accordion-btn i {
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion-btn.active i {
+  transform: rotate(-180deg);
+}
+
+.accordion-btn.btn1:hover,
+.accordion-btn.active.btn1 {
+  background-color: #f06;
+}
+
+.accordion-btn.btn2:hover,
+.accordion-btn.active.btn2 {
+  background-color: #ff6;
+}
+
+.accordion-btn.btn3:hover,
+.accordion-btn.active.btn3 {
+  background-color: #0f6;
+}
+
+
+.description {
+  border-inline: 0.3rem solid transparent;
+  border-bottom: 0.3rem solid transparent;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  height: 0;
+  transition: height 0.5s ease-in-out;
+}
+
+.desc1 {
+  border-color: #f06;
+  color: #f06;
+}
+.desc2 {
+  border-color: #ff6;
+  color: #ff6;
+}
+
+.desc3 {
+  border-color: #0f6;
+  color: #0f6;
+}
+
+.description .box {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.img-box {
+  width: 120px;
+  height: 120px;
+  margin-left: -1rem;
+  aspect-ratio: 1/1;
+  transform-origin: 0 0;
+  transform: scale(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+.img-box img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+.accordion-btn.active + .description .img-box {
+  transform: scale(1);
+}
+
+.text-box h1 {
+  margin-bottom: 0.5rem;
+}
+
+.text-box p {
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #4b5563;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+footer .social-icon ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+}
+
+.social-item a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+}
+
+.social-item a:hover {
+  color: #08f;
+}
+
+footer .logo img {
+  width: 64px;
+  height: 64px;
+}
+
+footer .copy-rights a {
+  text-decoration: none;
+  color:#08f;
+}
+
+/*!<<--------------------------------------------------------->>*/
+/*?           you can use this selector to change the          ?*/
+/*?          height of description by active class only        ?*/
+/*!<<--------------------------------------------------------->>*/
+
+/* .accordion-btn.active + .description {
+  height: 100%;
+} */
