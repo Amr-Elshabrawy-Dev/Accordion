@@ -26,7 +26,9 @@
 
 1. JavaScript.
 
-1. icon moon.
+1. icon-moon.
+
+1. [Squoosh](https://squoosh.app/) is an online tool for image compression web app that reduces image sizes through numerous formats.
 
 1. [GTmetrix](https://gtmetrix.com/) is an online tool for customers to easily test the performance of their webpages.
 
@@ -36,7 +38,7 @@
 
 Test the performance of the webpage after deploy by using [GTmetrix](https://gtmetrix.com/).
 
-![Project Performance result](info/asa-website-performance.jpg)
+![Project Performance result](./img/SharedScreenshot.webp)
 
 ---
 
@@ -47,7 +49,7 @@ Test the performance of the webpage after deploy by using [GTmetrix](https://gtm
 - [🌟 Github 👉 https://github.com/amr-elshabrawy-dev](https://github.com/amr-elshabrawy-dev)
 - [📧 Gmail 👉 amrelshabrawy.dev@gmail.com](mailto:amrelshabrawy.dev@gmail.com)
 - [🐤 Twitter 👉 https://twitter.com/amr-elshabrawy-dev](https://twitter.com/amr-elshabrawy-dev)
-- [:phone: Whatsapp 👉 (+20) 1202546653](https://api.whatsapp.com/send/?phone=%2B201202546653&text&type=phone_number&app_absent=0)
+- [:phone: Whatsapp 👉 (+20) 1202546653](https://api.whatsapp.com/send/?phone=%2B2001202546653&text&type=phone_number&app_absent=0)
 
 ---
 
