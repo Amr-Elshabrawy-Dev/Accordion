@@ -163,14 +163,29 @@ footer .social-icon ul {
   color: #08f;
 }
 
+footer .logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 0 7px 3px #08f;
+  filter: drop-shadow(0 0 2px #08f);
+}
+
 footer .logo img {
-  width: 64px;
-  height: 64px;
+  width: 100%;
 }
 
 footer .copy-rights a {
   text-decoration: none;
   color:#08f;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #08f;
+  filter: drop-shadow(0 0 10px #08f);
+  transition: all 0.3s ease-in-out
+}
+
+footer .copy-rights a:hover {
+  filter: drop-shadow(0 0 10px #08f0);
 }
 
 /*!<<--------------------------------------------------------->>*/
